@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="ecj3bklq">
+  <resources>
+    <image id="bd801" name="loading.png" path="/"/>
+    <image id="bd802" name="bg_block.png" path="/"/>
+    <component id="bd803" name="UIBack.xml" path="/" exported="true"/>
+    <component id="bd804" name="UIWait.xml" path="/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

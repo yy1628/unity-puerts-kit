@@ -1,0 +1,39 @@
+{
+	"name": "puerts-starter-kit",
+	"author": "Geequlim",
+	"license": "BSD",
+	"scripts": {
+		"bundle:dev": "webpack --config webpack.config.js --watch --env esbuild=true",
+		"bundle:publish": "webpack --config webpack.config.js --env production=true",
+		"bundle:analyze": "webpack --config webpack.config.js --env production=true analyze=true",
+		"webapi:dev": "webpack --config webpack.config.js --watch --env esbuild=true entry=webapi",
+		"webapi:publish": "webpack --config webpack.config.js --env production=true entry=webapi",
+		"test:dev": "webpack --config webpack.config.js --watch --env entry=test esbuild=true"
+	},
+	"devDependencies": {
+		"@types/uglify-js": "^3.13.1",
+		"@types/uuid": "^8.3.3",
+		"buffer": "^6.0.3",
+		"esbuild": "^0.14.2",
+		"esbuild-loader": "^2.16.0",
+		"fast-glob": "^3.2.7",
+		"fork-ts-checker-webpack-plugin": "^6.5.0",
+		"performance-now": "^2.1.0",
+		"source-map-support": "^0.5.21",
+		"ts-loader": "^9.2.6",
+		"tsconfig-paths-webpack-plugin": "^3.5.2",
+		"typescript": "^4.5.3",
+		"webpack": "^5.65.0",
+		"webpack-bundle-analyzer": "^4.5.0",
+		"webpack-cli": "^4.9.1",
+		"webpack-dev-server": "^4.6.0",
+		"webpackbar": "^5.0.2"
+	},
+	"dependencies": {
+		"mime": "^3.0.0",
+		"query-string": "^7.0.1",
+		"snappyjs": "^0.6.1",
+		"url-parse": "^1.5.3",
+		"yaml-loader": "^0.6.0"
+	}
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,600">
+  <displayList>
+    <image id="n0_bd80" name="n0" src="bd802" fileName="bg_block.png" xy="0,0" size="800,600">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+</component>
